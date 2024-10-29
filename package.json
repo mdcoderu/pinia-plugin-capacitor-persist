@@ -1,7 +1,7 @@
 {
   "name": "pinia-plugin-capacitor-persist",
   "description": "A Vue 3 Pinia plugin which persists store content using the CapacitorJS Preferences store.",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "license": "MIT",
   "author": "Craig Riley <hello@craigriley.uk> (https://craigriley.uk)",
   "funding": [
@@ -55,7 +55,7 @@
     "vue": "^3.2.31"
   },
   "peerDependencies": {
-    "@capacitor/preferences": "^5.0.0",
+    "@capacitor/preferences": "^5.0.0 || ^6.0",
     "pinia": "^2.0.0",
     "vue": "^3.0.0"
   },
